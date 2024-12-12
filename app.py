@@ -2,7 +2,7 @@ import datetime
 from flask import Flask, render_template, request
 from pymongo import MongoClient
 import os
-from dotenv import dotenv
+from dotenv import load_dotenv
 
 load_dotenv()
 
